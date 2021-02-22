@@ -1,0 +1,9 @@
+package com.example.demo.brd.repository;
+
+import com.example.demo.brd.domain.Board;
+
+public interface BoardRepository {
+
+	public int insertWritter(Board b);
+
+}

@@ -1,0 +1,11 @@
+package com.example.demo.ctg.domain;
+
+@Entity @Table(name="categories")
+public class Category {
+   @Id @GeneratedValue(strategy = GenerationType.AUTO)
+   @Column(name="ctg_no") private int ctgNo;
+   @Column(name="ctg_name") private String ctgName;
+
+   @OneToMany(mappedBy = "category")
+   private List<Product> productList = new ArrayList<>();
+}

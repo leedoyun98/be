@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://lee.cjz7f9vhmbxf.ap-northeast-2.rds.amazonaws.com:3306/myinstance
+    driverClassName: org.mariadb.jdbc.Driver
+    username: myinstance
+    password: alsd7856
+  jpa:
+      database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+      hibernate:
+        ddl-auto: crate
+

@@ -1,0 +1,5 @@
+package com.example.demo.mem.repository;
+
+public class MemberRepositoryImpl {
+
+}

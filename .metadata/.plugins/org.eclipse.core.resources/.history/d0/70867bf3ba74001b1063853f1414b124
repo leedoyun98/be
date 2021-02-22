@@ -1,0 +1,50 @@
+package com.example.demo.brd.service;
+
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.example.demo.brd.domain.Board;
+import com.example.demo.brd.domain.BoardDto;
+import com.example.demo.brd.repository.BoardRepositoryImpl;
+
+import lombok.RequiredArgsConstructor;
+
+@Service @RequiredArgsConstructor
+public class BoardServiceImpl implements BoardService {
+	public final BoardRepositoryImpl boardMapper;
+
+	@Override
+	public int insertWritter(BoardDto b) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Board> selectAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Board selectById(String title) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int update(Board b) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int delete(Board b) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+
+	
+}

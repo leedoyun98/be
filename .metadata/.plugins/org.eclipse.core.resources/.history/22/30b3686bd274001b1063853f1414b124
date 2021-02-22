@@ -1,0 +1,23 @@
+package com.example.demo.adm.domain;
+
+@Data
+@Component
+@Lazy
+public class ManagerDto {
+	private String email;
+	
+	private String password;
+	
+	private String ages;
+	
+	private int level;
+	
+	private String city;
+	
+	private int gender;
+	
+	private String phone;
+	
+	private String addr;
+
+}

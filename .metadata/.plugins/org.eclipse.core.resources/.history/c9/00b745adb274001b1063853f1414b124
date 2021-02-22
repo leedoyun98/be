@@ -1,0 +1,35 @@
+package com.example.demo.mem.service;
+
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructor
+public class MemberService {
+	final MemberRepository memberRepository;
+	
+	public int join(Member m) {
+		return null;
+		//return memberRepository.insert(m);
+	}
+	public Member login(Member m) {
+		return null;
+		//return memberRepository.selectById(m);
+	}
+	public int modify(Member m) {
+		return null;
+		//return memberRepository.update(m);
+	}
+	public int withdrawal(Member m) {
+		return null;
+		//return memberRepository.delete(m);
+	}
+	public Member getMember(String memid) {
+		return null;
+	}
+
+}

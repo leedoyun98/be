@@ -1,0 +1,5 @@
+package com.example.demo.ord.domain;
+
+public class Order {
+
+}
