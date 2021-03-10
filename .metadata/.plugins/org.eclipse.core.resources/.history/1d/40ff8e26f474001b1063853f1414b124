@@ -1,5 +1,0 @@
-package com.example.demo.adm.service;
-
-public interface ManagerService {
-
-}

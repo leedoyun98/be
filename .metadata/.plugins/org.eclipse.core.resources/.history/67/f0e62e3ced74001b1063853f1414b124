@@ -1,7 +1,0 @@
-package com.example.demo.rpl.domain;
-
-public class ReplyDto {
-	private int rplNo;
-	private String rplContent;
-
-}

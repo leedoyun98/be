@@ -1,5 +1,0 @@
-package com.example.demo.prd.repository;
-
-public interface ProductRepositoyImpl {
-
-}
